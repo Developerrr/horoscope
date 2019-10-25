@@ -35,7 +35,7 @@ def save_page(title, header, paragraphs, link, link_title, output="index.html"):
 	fp.close()
 
 title = "Гороскоп"
-header = "Ваши предсказания на" + dt.now().strftime("%Y-%m-%d") 
+header = "Ваши предсказания на " + dt.now().strftime("%Y-%m-%d") 
 link = "https://developerrr.github.io/horoscope/about.html"
 link_title = "О реализации"
 
